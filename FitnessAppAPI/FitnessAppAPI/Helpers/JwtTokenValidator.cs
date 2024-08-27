@@ -35,7 +35,7 @@ namespace FitnessAppAPI.Helpers
                 var principal = tokenHandler.ValidateToken(token, validationParameters, out var validatedToken);
                 return principal;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Token nije validan
                 // Možeš logovati grešku ili obraditi izuzetke kako ti odgovara

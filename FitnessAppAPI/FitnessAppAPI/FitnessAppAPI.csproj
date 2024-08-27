@@ -240,8 +240,11 @@
     <Compile Include="Controllers\GymController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MembershipController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
+    <Compile Include="Controllers\TrainerController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\WorkoutSessionController.cs" />
     <Compile Include="FitnessHubContext.cs" />
     <Compile Include="DTO\GymBasicInfoDto.cs" />
     <Compile Include="DTO\GymDetailDto.cs" />
@@ -261,9 +264,15 @@
     <Compile Include="Helpers\JwtTokenValidator.cs" />
     <Compile Include="IRepositories\IGymRepository.cs" />
     <Compile Include="IRepositories\IMembershipRepository.cs" />
+    <Compile Include="IRepositories\IReviewRepository.cs" />
+    <Compile Include="IRepositories\ITrainerRepository.cs" />
+    <Compile Include="IRepositories\IWorkoutSessionRepository.cs" />
     <Compile Include="IServices\IGymService.cs" />
     <Compile Include="IServices\IMembershipService.cs" />
+    <Compile Include="IServices\IReviewService.cs" />
+    <Compile Include="IServices\ITrainerService.cs" />
     <Compile Include="IServices\IUserService.cs" />
+    <Compile Include="IServices\IWorkoutSessionService.cs" />
     <Compile Include="Models\Gym.cs" />
     <Compile Include="Models\Memebership.cs" />
     <Compile Include="Models\Review.cs" />
@@ -275,10 +284,16 @@
     <Compile Include="IRepositories\IUserRepository.cs" />
     <Compile Include="Repositories\GymRepository.cs" />
     <Compile Include="Repositories\MembershipRepository.cs" />
+    <Compile Include="Repositories\ReviewRepository.cs" />
+    <Compile Include="Repositories\TrainerRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Repositories\WorkoutSessionRepository.cs" />
     <Compile Include="Services\GymService.cs" />
     <Compile Include="Services\MembershipService.cs" />
+    <Compile Include="Services\ReviewService.cs" />
+    <Compile Include="Services\TrainerService.cs" />
     <Compile Include="Services\UserService.cs" />
+    <Compile Include="Services\WorkoutSessionService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />

@@ -20,14 +20,20 @@ namespace FitnessAppAPI
 
 
             // Register your services here
-            // e.g. container.RegisterType<ITestService, TestService>();4 
+            // e.g. container.RegisterType<ITestService, TestService>();
             container.RegisterType<IGymRepository, GymRepository>(new HierarchicalLifetimeManager());
             container.RegisterType<IMembershipRepository, MembershipRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<ITrainerRepository, TrainerRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IWorkoutSessionRepository, WorkoutSessionRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IReviewRepository, ReviewRepository>(new HierarchicalLifetimeManager());
 
 
             container.RegisterType<IUserService, UserService>(new HierarchicalLifetimeManager());
             container.RegisterType<IGymService, GymService>(new HierarchicalLifetimeManager());
             container.RegisterType<IMembershipService, MembershipService>(new HierarchicalLifetimeManager());
+            container.RegisterType<ITrainerService, TrainerService>(new HierarchicalLifetimeManager());
+            container.RegisterType<IWorkoutSessionService, WorkoutSessionService>(new HierarchicalLifetimeManager());
+            container.RegisterType<IReviewService, ReviewService>(new HierarchicalLifetimeManager());
 
 
 

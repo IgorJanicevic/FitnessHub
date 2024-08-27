@@ -14,4 +14,5 @@ namespace FitnessAppAPI.Models
         public double Rating { get; set; }
     }
 
+  
 }
