@@ -1,5 +1,6 @@
 ﻿using FitnessAppAPI.DTO;
 using FitnessAppAPI.Helpers;
+using FitnessAppAPI.IServices;
 using FitnessAppAPI.Models;
 using System;
 using System.Linq;
@@ -13,7 +14,13 @@ namespace FitnessAppAPI.Controllers
     [RoutePrefix("api/users")]
     public class UserController : ApiController
     {
-        private FitnessHubContext _context = new FitnessHubContext();
+        private readonly IUserService _userService;
+
+        // Koristi Dependency Injection da proslijedi UserService
+        public UserController(IUserService userService)
+        {
+            _userService = userService;
+        }
 
         // POST api/users/register
         [HttpPost]
@@ -22,31 +29,16 @@ namespace FitnessAppAPI.Controllers
         {
             try
             {
-                if (_context.Users.Any(u => u.Email == userDto.Email))
-                {
-                    return BadRequest("Email already exists.");
-                }
+                var user = _userService.Register(userDto);
 
-                User user = new User
-                {
-                    Username = userDto.Username,
-                    Email = userDto.Email,
-                    Password = userDto.Password,
-                    Role = userDto.Role,
-                    RegistrationDate = DateTime.UtcNow
-                };
-
-                _context.Users.Add(user);
-                _context.SaveChanges();
-                // Generisanje JWT tokena ovde
+                // Generisanje JWT tokena
                 var token = JwtTokenGenerator.GenerateToken(user.Id.ToString());
 
                 return Ok(new { Token = token });
             }
             catch (Exception ex)
             {
-                // Logovanje greške
-                return InternalServerError(ex);
+                return BadRequest(ex.Message);
             }
         }
 
@@ -55,49 +47,44 @@ namespace FitnessAppAPI.Controllers
         [Route("login")]
         public IHttpActionResult Login([FromBody] UserLoginDto loginDto)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Email == loginDto.Email && u.Password == loginDto.Password);
-            if (user == null)
+            try
+            {
+                var user = _userService.Login(loginDto);
+
+                // Generisanje JWT tokena
+                var token = JwtTokenGenerator.GenerateToken(user.Id.ToString());
+
+                return Ok(new { Token = token });
+            }
+            catch (Exception )
             {
                 return Unauthorized();
             }
-
-            // Generisanje JWT tokena ovde
-            var token = JwtTokenGenerator.GenerateToken(user.Id.ToString());
-
-            return Ok(new { Token = token });
         }
 
         [HttpGet]
         [Route("profile")]
         public IHttpActionResult GetProfile()
         {
-            // Dohvati token iz Authorization headera
             var token = Request.Headers.Authorization?.Parameter;
             if (token == null)
             {
                 return Unauthorized();
             }
 
-            // Validiraj token i dohvati ClaimsPrincipal
             var principal = JwtTokenValidator.ValidateToken(token);
             if (principal == null)
             {
                 return Unauthorized();
             }
 
-            // Izvuci userId iz tokena
-            var userIdString = principal.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
-            if (userIdString == null || !int.TryParse(userIdString, out int userId))
+            var userId = principal.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+            if (userId == null)
             {
                 return Unauthorized();
             }
 
-            // Loguj userId za debagovanje
-            System.Diagnostics.Debug.WriteLine($"User ID from token: {userId}");
-
-            // Pretpostavlja se da koristiš neki način za dobijanje korisničkih podataka iz baze
-            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
-
+            var user = _userService.GetProfile(userId);
             if (user == null)
             {
                 return NotFound();
