@@ -1,10 +1,11 @@
 ﻿using FitnessAppAPI.DTO;
+using FitnessAppAPI.Helpers;
 using FitnessAppAPI.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Security.Claims;
 using System.Web.Http;
 
 namespace FitnessAppAPI.Controllers
@@ -12,23 +13,22 @@ namespace FitnessAppAPI.Controllers
     [RoutePrefix("api/users")]
     public class UserController : ApiController
     {
-        // Dummy storage (zameni sa bazom podataka)
-        private static List<User> users = new List<User>();
+        private FitnessHubContext _context = new FitnessHubContext();
 
+        // POST api/users/register
         [HttpPost]
         [Route("register")]
         public IHttpActionResult Register([FromBody] UserRegistrationDto userDto)
         {
             try
             {
-                if (users.Any(u => u.Email == userDto.Email))
+                if (_context.Users.Any(u => u.Email == userDto.Email))
                 {
                     return BadRequest("Email already exists.");
                 }
 
                 User user = new User
                 {
-                    Id = users.Count + 1,
                     Username = userDto.Username,
                     Email = userDto.Email,
                     Password = userDto.Password,
@@ -36,8 +36,12 @@ namespace FitnessAppAPI.Controllers
                     RegistrationDate = DateTime.UtcNow
                 };
 
-                users.Add(user);
-                return Ok("User registered successfully.");
+                _context.Users.Add(user);
+                _context.SaveChanges();
+                // Generisanje JWT tokena ovde
+                var token = JwtTokenGenerator.GenerateToken(user.Id.ToString());
+
+                return Ok(new { Token = token });
             }
             catch (Exception ex)
             {
@@ -46,30 +50,53 @@ namespace FitnessAppAPI.Controllers
             }
         }
 
-
+        // POST api/users/login
         [HttpPost]
         [Route("login")]
         public IHttpActionResult Login([FromBody] UserLoginDto loginDto)
         {
-            var user = users.FirstOrDefault(u => u.Email == loginDto.Email && u.Password == loginDto.Password);
+            var user = _context.Users.FirstOrDefault(u => u.Email == loginDto.Email && u.Password == loginDto.Password);
             if (user == null)
             {
                 return Unauthorized();
             }
 
             // Generisanje JWT tokena ovde
-            var token = "dummy-jwt-token";
+            var token = JwtTokenGenerator.GenerateToken(user.Id.ToString());
 
             return Ok(new { Token = token });
         }
 
         [HttpGet]
-        //[Authorize]
         [Route("profile")]
         public IHttpActionResult GetProfile()
         {
-            var userId = 1; // Ovde parsiraj ID iz JWT tokena
-            var user = users.FirstOrDefault(u => u.Id == userId);
+            // Dohvati token iz Authorization headera
+            var token = Request.Headers.Authorization?.Parameter;
+            if (token == null)
+            {
+                return Unauthorized();
+            }
+
+            // Validiraj token i dohvati ClaimsPrincipal
+            var principal = JwtTokenValidator.ValidateToken(token);
+            if (principal == null)
+            {
+                return Unauthorized();
+            }
+
+            // Izvuci userId iz tokena
+            var userIdString = principal.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+            if (userIdString == null || !int.TryParse(userIdString, out int userId))
+            {
+                return Unauthorized();
+            }
+
+            // Loguj userId za debagovanje
+            System.Diagnostics.Debug.WriteLine($"User ID from token: {userId}");
+
+            // Pretpostavlja se da koristiš neki način za dobijanje korisničkih podataka iz baze
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
 
             if (user == null)
             {
@@ -88,6 +115,8 @@ namespace FitnessAppAPI.Controllers
 
             return Ok(userProfile);
         }
-    }
 
+
+
+    }
 }
