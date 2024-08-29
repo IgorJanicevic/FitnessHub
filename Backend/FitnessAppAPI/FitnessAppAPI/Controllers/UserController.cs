@@ -22,6 +22,23 @@ namespace FitnessAppAPI.Controllers
             _userService = userService;
         }
 
+        [HttpGet]
+        [Route("")]
+        public IHttpActionResult GetAllUsers()
+        {
+            try
+            {
+                var allUsers = _userService.GetAllUsers();
+                if (allUsers != null)
+                    return Ok(allUsers);
+                return NotFound();
+
+            }catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         // POST api/users/register
         [HttpPost]
         [Route("register")]

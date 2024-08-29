@@ -3,6 +3,7 @@ using System.Linq;
 using FitnessAppAPI.IRepositories;
 using FitnessAppAPI.Models;
 using System.Data.Entity;
+using System;
 
 namespace FitnessAppAPI.Repositories
 {
@@ -17,6 +18,11 @@ namespace FitnessAppAPI.Repositories
 
         public void AddWorkoutSession(WorkoutSession workoutSession)
         {
+            var foundSession= _context.WorkoutSessions.FirstOrDefault(s => s.Id == workoutSession.Id);
+            if (foundSession.TrainerId != workoutSession.TrainerId || foundSession.UserId != foundSession.UserId)
+            {
+                throw new InvalidOperationException("This workout session already exist.");
+            }
             _context.WorkoutSessions.Add(workoutSession);
             _context.SaveChanges();
         }
@@ -56,6 +62,8 @@ namespace FitnessAppAPI.Repositories
             var existingSession = _context.WorkoutSessions.FirstOrDefault(ws => ws.Id == workoutSession.Id);
             if (existingSession != null)
             {
+                if (existingSession.TrainerId != workoutSession.TrainerId || existingSession.UserId != workoutSession.UserId)
+                    throw new InvalidOperationException("Cannot change trainer nor user.");
                 _context.Entry(existingSession).CurrentValues.SetValues(workoutSession);
                 _context.SaveChanges();
             }

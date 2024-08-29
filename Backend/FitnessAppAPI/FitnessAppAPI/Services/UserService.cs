@@ -12,12 +12,14 @@ namespace FitnessAppAPI.Services
     public class UserService : IUserService
     {
         private readonly FitnessHubContext _context;
+        
 
         public UserService(FitnessHubContext context)
         {
             _context = context;
         }
 
+        //User role je postavljena na 'Client' pri registraciji bez obzira na userDto.Role
         public User Register(UserRegistrationDto userDto)
         {
             if (_context.Users.Any(u => u.Email == userDto.Email))
@@ -30,7 +32,7 @@ namespace FitnessAppAPI.Services
                 Username = userDto.Username,
                 Email = userDto.Email,
                 Password = userDto.Password,
-                Role = userDto.Role,
+                Role = "Client",
                 RegistrationDate = DateTime.UtcNow
             };
 
@@ -52,6 +54,11 @@ namespace FitnessAppAPI.Services
         public User GetProfile(string userId)
         {
             return _context.Users.FirstOrDefault(u => u.Id.ToString() == userId);
+        }
+
+        public IEnumerable<User> GetAllUsers()
+        {
+            return _context.Users.ToList();
         }
     }
 
