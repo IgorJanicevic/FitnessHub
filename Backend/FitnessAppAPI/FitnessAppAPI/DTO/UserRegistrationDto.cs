@@ -10,6 +10,6 @@ namespace FitnessAppAPI.DTO
         public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string Role { get; set; } // Opcionalno, može biti "Client", "Trainer", itd.
+        //public string Role { get; set; } // Opcionalno, može biti "Client", "Trainer", itd.
     }
 }

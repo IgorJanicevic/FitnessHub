@@ -19,7 +19,7 @@ namespace FitnessAppAPI.Services
             _context = context;
         }
 
-        //User role je postavljena na 'Client' pri registraciji bez obzira na userDto.Role
+        //Pri registraciji role je klijent
         public User Register(UserRegistrationDto userDto)
         {
             if (_context.Users.Any(u => u.Email == userDto.Email))
@@ -33,7 +33,8 @@ namespace FitnessAppAPI.Services
                 Email = userDto.Email,
                 Password = userDto.Password,
                 Role = "Client",
-                RegistrationDate = DateTime.UtcNow
+                RegistrationDate = DateTime.UtcNow,
+                MembershipStatus = "None"
             };
 
             _context.Users.Add(user);
