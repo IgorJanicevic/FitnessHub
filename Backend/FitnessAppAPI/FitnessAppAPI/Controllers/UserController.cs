@@ -8,9 +8,11 @@ using System.Net;
 using System.Net.Http;
 using System.Security.Claims;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace FitnessAppAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/users")]
     public class UserController : ApiController
     {

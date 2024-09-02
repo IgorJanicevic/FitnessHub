@@ -395,3 +395,8 @@ C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\
 C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\obj\Debug\FitnessA.C20A1BA6.Up2Date
 C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\obj\Debug\FitnessAppAPI.dll
 C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\obj\Debug\FitnessAppAPI.pdb
+C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\bin\System.Web.Http.Cors.dll
+C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\HomePC\Documents\GitHub\FitnessHub\Backend\FitnessAppAPI\FitnessAppAPI\bin\System.Web.Http.Cors.xml
