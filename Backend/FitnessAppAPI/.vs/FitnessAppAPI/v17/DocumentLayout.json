@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|c:\\users\\homepc\\documents\\github\\fitnesshub\\backend\\fitnessappapi\\fitnessappapi\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,6 +16,104 @@
       "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\controllers\\gymcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\controllers\\gymcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|c:\\users\\homepc\\documents\\github\\fitnesshub\\backend\\fitnessappapi\\fitnessappapi\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\models\\workoutsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\models\\workoutsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|c:\\users\\homepc\\documents\\github\\fitnesshub\\backend\\fitnessappapi\\fitnessappapi\\models\\memebership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\models\\memebership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|c:\\users\\homepc\\documents\\github\\fitnesshub\\backend\\fitnessappapi\\fitnessappapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\controllers\\workoutsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\controllers\\workoutsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\helpers\\jwttokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\helpers\\jwttokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\irepositories\\igymrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\irepositories\\igymrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +122,7 @@
       "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\dto\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +143,8 @@
       "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +163,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\fitnesshubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\fitnesshubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\models\\workoutsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|solutionrelative:fitnessappapi\\models\\workoutsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F95CC72-65A2-4A14-9EFB-57C19BEFC32D}|FitnessAppAPI\\FitnessAppAPI.csproj|C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\fitnessappapi\\iservices\\iworkoutsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +204,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 1,
+=======
+          "SelectedChildIndex": 28,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,7 +216,158 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 1,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\DTO\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\DTO\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\DTO\\UserLoginDto.cs",
+              "RelativeToolTip": "FitnessAppAPI\\DTO\\UserLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T17:47:18.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Memebership.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Models\\Memebership.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\Models\\Memebership.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Models\\Memebership.cs",
+              "RelativeToolTip": "FitnessAppAPI\\Models\\Memebership.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T17:47:00.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "FitnessAppAPI\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T05:12:50.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TrainerController.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\TrainerController.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\Controllers\\TrainerController.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\TrainerController.cs",
+              "RelativeToolTip": "FitnessAppAPI\\Controllers\\TrainerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T05:12:41.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MembershipController.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\MembershipController.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\Controllers\\MembershipController.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\MembershipController.cs",
+              "RelativeToolTip": "FitnessAppAPI\\Controllers\\MembershipController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T05:12:28.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FitnessAppAPI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T05:12:20.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\UnityConfig.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\App_Start\\UnityConfig.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\UnityConfig.cs",
+              "RelativeToolTip": "FitnessAppAPI\\App_Start\\UnityConfig.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:49:06.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "FitnessAppAPI\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:49:03.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "FitnessAppAPI\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:49:01.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "FitnessAppAPI\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:48:59.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "FitnessAppAPI\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:48:57.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtTokenValidator.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Helpers\\JwtTokenValidator.cs",
+              "RelativeDocumentMoniker": "FitnessAppAPI\\Helpers\\JwtTokenValidator.cs",
+              "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Helpers\\JwtTokenValidator.cs",
+              "RelativeToolTip": "FitnessAppAPI\\Helpers\\JwtTokenValidator.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:47:18.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> Stashed changes
               "Title": "Gym.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Models\\Gym.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Models\\Gym.cs",
@@ -127,7 +380,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 23,
+>>>>>>> Stashed changes
               "Title": "UserRegistrationDto.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\DTO\\UserRegistrationDto.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\DTO\\UserRegistrationDto.cs",
@@ -139,7 +396,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 25,
+>>>>>>> Stashed changes
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\IRepositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\IRepositories\\IUserRepository.cs",
@@ -151,7 +412,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 24,
+>>>>>>> Stashed changes
               "Title": "IGymRepository.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\IRepositories\\IGymRepository.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\IRepositories\\IGymRepository.cs",
@@ -163,7 +428,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 21,
+>>>>>>> Stashed changes
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Services\\UserService.cs",
@@ -171,12 +440,15 @@
               "RelativeToolTip": "FitnessAppAPI\\Services\\UserService.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAQwBUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T22:03:03.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T22:03:03.705Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 26,
+>>>>>>> Stashed changes
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\IServices\\IUserService.cs",
@@ -188,7 +460,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Models\\User.cs",
@@ -200,7 +476,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 22,
+>>>>>>> Stashed changes
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Repositories\\UserRepository.cs",
@@ -212,7 +492,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 16,
+>>>>>>> Stashed changes
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Helpers\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Helpers\\JwtTokenGenerator.cs",
@@ -224,7 +508,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 13,
+=======
+              "DocumentIndex": 28,
+>>>>>>> Stashed changes
               "Title": "Trainer.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Models\\Trainer.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Models\\Trainer.cs",
@@ -236,7 +524,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 27,
+>>>>>>> Stashed changes
               "Title": "WorkoutSessionRepository.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Repositories\\WorkoutSessionRepository.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Repositories\\WorkoutSessionRepository.cs",
@@ -248,7 +540,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 15,
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "WorkoutSession.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Models\\WorkoutSession.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Models\\WorkoutSession.cs",
@@ -260,7 +556,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 29,
+>>>>>>> Stashed changes
               "Title": "FitnessHubContext.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\FitnessHubContext.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\FitnessHubContext.cs",
@@ -272,7 +572,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
+=======
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Web.config",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Web.config",
@@ -285,7 +589,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 10,
+>>>>>>> Stashed changes
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Controllers\\UserController.cs",
@@ -297,20 +605,32 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
               "Title": "GymController.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\GymController.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Controllers\\GymController.cs",
               "ToolTip": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\GymController.cs",
               "RelativeToolTip": "FitnessAppAPI\\Controllers\\GymController.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAD0AAAAAAAAAAAAkwAAAAAAAAAAA",
+=======
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAwAAAAAAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T17:46:27.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 17,
+=======
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "ReviewController.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Controllers\\ReviewController.cs",
@@ -322,7 +642,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 18,
+=======
+              "DocumentIndex": 31,
+>>>>>>> Stashed changes
               "Title": "ReviewService.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Services\\ReviewService.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Services\\ReviewService.cs",
@@ -334,7 +658,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 19,
+=======
+              "DocumentIndex": 32,
+>>>>>>> Stashed changes
               "Title": "IReviewService.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\IServices\\IReviewService.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\IServices\\IReviewService.cs",
@@ -346,7 +674,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 20,
+=======
+              "DocumentIndex": 33,
+>>>>>>> Stashed changes
               "Title": "ReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Repositories\\ReviewRepository.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Repositories\\ReviewRepository.cs",
@@ -358,7 +690,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 21,
+=======
+              "DocumentIndex": 34,
+>>>>>>> Stashed changes
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\IRepositories\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\IRepositories\\IReviewRepository.cs",
@@ -370,7 +706,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 22,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "WorkoutSessionController.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Controllers\\WorkoutSessionController.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Controllers\\WorkoutSessionController.cs",
@@ -382,7 +722,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 23,
+=======
+              "DocumentIndex": 35,
+>>>>>>> Stashed changes
               "Title": "WorkoutSessionService.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\Services\\WorkoutSessionService.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\Services\\WorkoutSessionService.cs",
@@ -394,7 +738,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 16,
+=======
+              "DocumentIndex": 30,
+>>>>>>> Stashed changes
               "Title": "IWorkoutSessionService.cs",
               "DocumentMoniker": "C:\\Users\\HomePC\\Documents\\GitHub\\FitnessHub\\Backend\\FitnessAppAPI\\FitnessAppAPI\\IServices\\IWorkoutSessionService.cs",
               "RelativeDocumentMoniker": "FitnessAppAPI\\IServices\\IWorkoutSessionService.cs",
