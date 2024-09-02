@@ -4,9 +4,11 @@ using FitnessAppAPI.Models;
 using FitnessAppAPI.IServices;
 using System.Net;
 using System;
+using System.Web.Http.Cors;
 
 namespace FitnessAppAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/workoutsessions")]
     public class WorkoutSessionController : ApiController
     {

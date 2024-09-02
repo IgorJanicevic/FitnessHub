@@ -3,9 +3,11 @@ using System.Web.Http;
 using FitnessAppAPI.Models;
 using FitnessAppAPI.IServices;
 using System.Net;
+using System.Web.Http.Cors;
 
 namespace FitnessAppAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/reviews")]
     public class ReviewController : ApiController
     {

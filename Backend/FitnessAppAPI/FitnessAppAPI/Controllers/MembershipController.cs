@@ -6,9 +6,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace FitnessAppAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/memberships")]
     public class MembershipController : ApiController
     {
