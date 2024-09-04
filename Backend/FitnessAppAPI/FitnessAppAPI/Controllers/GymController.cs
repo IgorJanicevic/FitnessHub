@@ -35,7 +35,7 @@ namespace FitnessAppAPI.Controllers
                 return NotFound();
             }
         }
-
+        //api/gyms
         [HttpGet]
         [Route("")]
         public IHttpActionResult GetGymsByLocation([FromUri] string location)

@@ -273,10 +273,12 @@
     <Compile Include="IServices\ITrainerService.cs" />
     <Compile Include="IServices\IUserService.cs" />
     <Compile Include="IServices\IWorkoutSessionService.cs" />
+    <Compile Include="Models\Exercise.cs" />
     <Compile Include="Models\Gym.cs" />
     <Compile Include="Models\Memebership.cs" />
     <Compile Include="Models\Review.cs" />
     <Compile Include="Models\Trainer.cs" />
+    <Compile Include="Models\Training.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\WorkoutPlan.cs" />
     <Compile Include="Models\WorkoutSession.cs" />

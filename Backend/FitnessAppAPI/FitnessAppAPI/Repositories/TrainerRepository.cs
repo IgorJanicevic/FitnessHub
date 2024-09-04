@@ -18,8 +18,9 @@ namespace FitnessAppAPI.Repositories
 
         public void AddTrainer(Trainer trainer)
         {
-            var foundTrainer= _context.Trainers.FirstOrDefault(t => t.UserId == trainer.UserId);
-            if (foundTrainer.GymId == trainer.GymId) throw new InvalidOperationException("This trainer already exist.");
+            var foundTrainer= _context.Trainers.FirstOrDefault(t => t.UserId == trainer.UserId && t.GymId==trainer.GymId);
+            
+            if (foundTrainer!=null) throw new InvalidOperationException("This trainer already exist.");
             
             _context.Trainers.Add(trainer);
             _context.SaveChanges();

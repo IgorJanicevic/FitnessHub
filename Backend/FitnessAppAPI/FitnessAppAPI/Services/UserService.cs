@@ -11,40 +11,32 @@ namespace FitnessAppAPI.Services
 {
     public class UserService : IUserService
     {
-        private readonly FitnessHubContext _context;
+        private readonly IUserRepository _userRepository;
         
 
-        public UserService(FitnessHubContext context)
+        public UserService(IUserRepository repository)
         {
-            _context = context;
+            _userRepository = repository;
         }
 
         //Pri registraciji role je klijent
-        public User Register(UserRegistrationDto userDto)
+        public User Register(User userDto)
         {
-            if (_context.Users.Any(u => u.Email == userDto.Email))
-            {
-                throw new Exception("Email already exists.");
-            }
+                var users= _userRepository.GetAllUsers();
+                if (users.Any(u => u.Email == userDto.Email))
+                {
+                    throw new Exception("Email already exists.");
+                }
+            
 
-            var user = new User
-            {
-                Username = userDto.Username,
-                Email = userDto.Email,
-                Password = userDto.Password,
-                Role = "Client",
-                RegistrationDate = DateTime.UtcNow,
-                MembershipStatus = "None"
-            };
 
-            _context.Users.Add(user);
-            _context.SaveChanges();
-            return user;
+            _userRepository.AddUser(userDto);
+            return userDto;
         }
 
         public User Login(UserLoginDto loginDto)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Email == loginDto.Email && u.Password == loginDto.Password);
+            var user = _userRepository.GetAllUsers().Where(u=>u.Email.Equals(loginDto.Email) && u.Password.Equals(loginDto.Password)).FirstOrDefault();
             if (user == null)
             {
                 throw new Exception("Invalid credentials.");
@@ -54,12 +46,13 @@ namespace FitnessAppAPI.Services
 
         public User GetProfile(string userId)
         {
-            return _context.Users.FirstOrDefault(u => u.Id.ToString() == userId);
+            int id= Int32.Parse(userId);
+            return _userRepository.GetUserById(id);
         }
 
         public IEnumerable<User> GetAllUsers()
         {
-            return _context.Users.ToList();
+            return _userRepository.GetAllUsers();
         }
     }
 

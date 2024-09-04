@@ -11,8 +11,9 @@ namespace FitnessAppAPI.Models
         public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string Role { get; set; } // Može biti "Client", "Trainer", "GymOwner", "Admin"
-        public string MembershipStatus { get; set; } // "Active", "Expired", "None"
-        public DateTime? RegistrationDate { get; set; }
+
+        // Navigation Properties
+
     }
+
 }

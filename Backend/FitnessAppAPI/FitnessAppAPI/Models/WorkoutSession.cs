@@ -8,12 +8,17 @@ namespace FitnessAppAPI.Models
     public class WorkoutSession
     {
         public int Id { get; set; }
-        public int UserId { get; set; } // Veza sa korisnikom
-        public int TrainerId { get; set; } // Veza sa trenerom
-        public int GymId { get; set; } // Veza sa teretanom
+        public int UserId { get; set; }
+        public int TrainerId { get; set; }
+        public int GymId { get; set; }
         public DateTime Date { get; set; }
-        public string Type { get; set; } // "Individual", "Group"
-        public string Status { get; set; } // "Scheduled", "Cancelled"
+        public string Type { get; set; }
+        public string Status { get; set; } = "Scheduled";
+
+        // Navigation Properties
+        public User User { get; set; }
+        public Trainer Trainer { get; set; }
+        public Gym Gym { get; set; }
     }
 
 }
