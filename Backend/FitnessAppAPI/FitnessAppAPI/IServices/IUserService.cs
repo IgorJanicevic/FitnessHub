@@ -7,7 +7,7 @@ namespace FitnessAppAPI.IServices
     public interface IUserService
     {
         IEnumerable<User> GetAllUsers();
-        User Register(UserRegistrationDto userDto);
+        User Register(User userDto);
         User Login(UserLoginDto loginDto);
         User GetProfile(string userId);
     }

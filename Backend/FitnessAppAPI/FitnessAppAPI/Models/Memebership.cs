@@ -8,11 +8,13 @@ namespace FitnessAppAPI.Models
     public class Membership
     {
         public int Id { get; set; }
-        public int UserId { get; set; } // Veza sa korisnikom
-        public int GymId { get; set; } // Veza sa teretanom
-        public DateTime StartDate { get; set; }
+        public int UserId { get; set; }
+        public int GymId { get; set; }
         public DateTime EndDate { get; set; }
-        public string PaymentStatus { get; set; } // "Paid", "Pending"
+
+        // Navigation Properties
+        public User User { get; set; }
+        public Gym Gym { get; set; }
     }
 
 }

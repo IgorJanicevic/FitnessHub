@@ -44,11 +44,12 @@ namespace FitnessAppAPI.Controllers
         // POST api/users/register
         [HttpPost]
         [Route("register")]
-        public IHttpActionResult Register([FromBody] UserRegistrationDto userDto)
+        public IHttpActionResult Register([FromBody] User userDto)
         {
             try
             {
                 var user = _userService.Register(userDto);
+                
 
                 // Generisanje JWT tokena
                 var token = JwtTokenGenerator.GenerateToken(user.Id.ToString());
@@ -57,7 +58,9 @@ namespace FitnessAppAPI.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                // Ispiši detalje greške
+                string errorMessage = ex.InnerException != null ? ex.InnerException.Message : ex.Message;
+                return InternalServerError(new Exception(errorMessage));
             }
         }
 
@@ -113,10 +116,7 @@ namespace FitnessAppAPI.Controllers
             {
                 Id = user.Id,
                 Username = user.Username,
-                Email = user.Email,
-                Role = user.Role,
-                MembershipStatus = user.MembershipStatus,
-                RegistrationDate = user.RegistrationDate
+                Email = user.Email
             };
 
             return Ok(userProfile);
