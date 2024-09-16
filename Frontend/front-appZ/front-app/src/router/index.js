@@ -31,7 +31,7 @@ const routes = [
   },
   {
     path: "/ai",
-    name: "AI",
+    name: "ai",
     component: CreateWorkoutAIView,
   },
 ];

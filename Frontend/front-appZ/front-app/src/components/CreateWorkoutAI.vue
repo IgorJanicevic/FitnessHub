@@ -278,18 +278,11 @@ html, body {
 }
 
 .background-image {
-  background-image: url('@/assets/teretanaSlika.png'); /* Ispravi putanju ako je potrebno */
-  background-size: cover; /* Možeš promeniti ovo na 'contain' ako želiš da slika bude cela vidljiva */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Drži sliku fiksnom dok se skroluje */
-  min-height: 150vh; /* Povećaj minimalnu visinu na 150vh ili više ako je potrebno */
-  width: 100vw; /* Povećaj da pokrije celu širinu ekrana */
-  position: absolute; /* Osiguraj da pokrije ceo ekran */
+  position: absolute;
   top: 0;
   left: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: larger;
+  width: 100vw;
+  min-height: 150vh;
 }
 
 
@@ -301,7 +294,7 @@ html, body {
   border-radius: 8px;
   background-color: rgba(51, 51, 51); /* Smanjena prozirnost za efekat na tamnoj pozadini */
   color: #fff;
-  margin-top: 20px; /* Povećaj vrednost kako bi pomerio formu ka dole */
+  margin-top: 75px; /* Povećaj vrednost kako bi pomerio formu ka dole */
   position: relative;
 }
 

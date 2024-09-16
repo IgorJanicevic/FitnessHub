@@ -1,13 +1,22 @@
 <template>
-    <nav class="navbar">
-      <div class="container">
-        <div class="brand">
-          <!-- <h1 style="color: rgba(240, 240, 240,1);">FitnessHub</h1> -->
-        </div>
-        <button class="signin-btn" @click="goToLogin">Sign in</button>
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand">
+        <!-- <h1 style="color: rgba(240, 240, 240,1);">FitnessHub</h1> -->
       </div>
-    </nav>
-  </template>
+      
+      <ul class="nav-links">
+        <li><img src="../assets/image.png" alt="Logo" width="200" height="40"></li>
+        <li><a @click="goToHome">Home</a></li>
+        <li><a href="#">Start Training</a></li>
+        <li><a @click="goToAi">Get Plan</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <button class="signin-btn" @click="goToLogin">Sign in</button>
+    </div>
+  </nav>
+</template>
 
 
 <script setup>
@@ -18,32 +27,63 @@ const router = useRouter();
 const goToLogin = () => {
   router.push({ name: 'login' });
 };
+
+const goToAi = () => {
+  router.push({ name: 'ai' });
+};
+
+const goToHome = () => {
+  router.push({ name: 'welcome' });
+};
+
 </script>
   
   <style scoped>
   .navbar {
-    background-color: rgba(49, 49, 49, 0.7); /* Transparent gray */
+    background-color: rgba(49, 49, 49, 0.7); 
     padding: 10px;
   }
-  
+
   .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .signin-btn {
-    background-color: transparent;
-    border: 2px solid white;
-    margin-top: 8px;
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .signin-btn:hover {
-    background-color: white;
-    color: black;
-  }
-  </style>
-  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem; 
+  margin: 0;
+  padding: 0;
+  margin-right: auto; 
+}
+
+
+.nav-links li {
+  display: inline-block; 
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-links li a:hover {
+  color: #ccc;
+}
+
+.signin-btn {
+  background-color: #333; 
+  color: #fff; 
+  border: 2px solid #fff; 
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.signin-btn:hover {
+  background-color: #444; 
+  border-color: #ccc; 
+}
+</style>
