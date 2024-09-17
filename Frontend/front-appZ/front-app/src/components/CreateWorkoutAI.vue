@@ -275,10 +275,11 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%; /* Osiguraj da HTML i body zauzimaju 100% visine */
+  z-index: 1;
 }
 
 .background-image {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100vw;
@@ -294,8 +295,9 @@ html, body {
   border-radius: 8px;
   background-color: rgba(51, 51, 51); /* Smanjena prozirnost za efekat na tamnoj pozadini */
   color: #fff;
-  margin-top: 75px; /* Povećaj vrednost kako bi pomerio formu ka dole */
+  margin-top: 60px; /* Povećaj vrednost kako bi pomerio formu ka dole */
   position: relative;
+  margin-bottom: 25px; /* Povećaj vrednost kako bi pomerio formu ka dole */
 }
 
 .form-group {

@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="left-section">
-      <h2>FitnessHub</h2>
+      <img src="../assets/LogoFooter.png" alt="logo" width="400" height="50">
     </div>
     <div class="right-section">
       <div class="column">
@@ -27,11 +27,13 @@
 
 <style scoped>
 .footer {
-    background-color: rgba(49, 49, 49, 0.5); /* Transparent gray */
+  background-color: #333;
   color: white;
   padding: 17px;
   display: flex;
   justify-content: space-between;
+  position: relative; /* Isto kao za Navbar */
+  z-index: 5; /* Ispod Navbara, ali iznad pozadine */
 }
 
 .left-section h2 {

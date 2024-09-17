@@ -6,7 +6,7 @@
       </div>
       
       <ul class="nav-links">
-        <li><img src="../assets/image.png" alt="Logo" width="200" height="40"></li>
+        <li><img src="../assets/LogoNavbar4.png" alt="Logo" width="180" height="20"></li>
         <li><a @click="goToHome">Home</a></li>
         <li><a href="#">Start Training</a></li>
         <li><a @click="goToAi">Get Plan</a></li>
@@ -40,8 +40,10 @@ const goToHome = () => {
   
   <style scoped>
   .navbar {
-    background-color: rgba(49, 49, 49, 0.7); 
+    background-color: #333; 
     padding: 10px;
+    position: relative; /* Da bi z-index funkcionisao */
+    z-index: 10; /* Visok z-index da se osigura da bude iznad drugih elemenata */
   }
 
   .container {

@@ -7,10 +7,8 @@ import GymsSearch from '@/components/GymsSearch.vue';
 
 <template>
   <main>
-    <Navbar />
     <Welcome />
     <GymsSearch/>
-    <Footer />
   </main>
 </template>
 

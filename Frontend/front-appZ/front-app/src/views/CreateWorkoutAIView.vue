@@ -1,13 +1,10 @@
 <script setup>
 import CreateWorkoutAI from '@/components/CreateWorkoutAI.vue';
-import Navbar from '@/components/Navbar.vue';
-import Footer from '@/components/Footer.vue';
 
 </script>
 
 <template>
   <main>
-    <Navbar/>
     <CreateWorkoutAI />
   </main>
 </template>
